@@ -85,7 +85,7 @@ namespace ywchoi2649052
         int getId() const {return id;}
         int getScore() const {return score;}
         char getGrade() const{return grade;}
-        student& operator++(){++score; calGrade(); return *this}
+        student& operator++(){++score; calGrade(); return *this;}
         student operator++(int)
         { 
             student temp{*this};

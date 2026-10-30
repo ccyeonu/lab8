@@ -31,10 +31,10 @@ namespace ywchoi2649052
         {
             if (n >= max) 
             {
-                std::cout >> "in studentRoster:addStudent error, over max\n";
+                std::cout << "in studentRoster:addStudent error, over max\n";
                 std::exit(1);
             }
-            studentarray[n] = s; 
+            studentArray[n] = s; 
             n += 1;
         }
 
@@ -42,7 +42,7 @@ namespace ywchoi2649052
         {
             std::cout << courseName << ": \n";
             for(int i = 0; i < n; i++)
-                std::cout << studentArray[1];
+                std::cout << studentArray[i];
             std::cout << std::endl;
         }
 
